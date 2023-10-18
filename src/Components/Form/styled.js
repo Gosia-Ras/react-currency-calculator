@@ -9,54 +9,43 @@ export const StyledForm = styled.form`
 export const StyledFieldset = styled.fieldset`
   border: none;
   margin: 20px 0px;
-  font-size: smaller;
 `;
 
 export const StyledSelect = styled.select`
-  padding: 10px;
-  border-radius: 4px;
-  border: 1px solid ${({ theme }) => theme.colors.darkGrey};
+  padding: 15px;
+  border: 2px solid ${({ theme }) => theme.colors.darkGrey};
+  width: 100%;
 `;
 
 export const StyledInput = styled.input`
-  padding: 10px;
-  border-radius: 4px;
-  border: 1px solid ${({ theme }) => theme.colors.darkGrey};
+  padding: 15px;
+  border: 2px solid ${({ theme }) => theme.colors.darkGrey};
+  width: 100%;
 `;
 
 export const StyledLabel = styled.label`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  padding: 5px;
-
-  @media (max-width: 768px) {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-  }
+  padding: 15px 0;
 `;
 
 export const CurrencySpan = styled.span`
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
-  letter-spacing: 0.05em;
-  text-shadow: 1px 1px ${({ theme }) => theme.colors.darkGrey};
+  margin-bottom: 15px;
 `;
 
 export const StyledButton = styled.button`
-  border: none;
-  border-radius: 10px;
+  border: 2px solid ${({ theme }) => theme.colors.fontMain};
   background-color: ${({ theme }) => theme.colors.buttonDefault};
-  font-size: 14px;
-  letter-spacing: 0.05em;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 400;
   color: ${({ theme }) => theme.colors.fontMain};
-  padding: 10px;
-  max-width: 300px;
+  padding: 10px 25px;
   margin-top: 5px;
   transition: background-color 0.5s, color 0.5s linear;
-  box-shadow: 5px 5px 20px -9px #636e72;
+  margin-bottom: 15px;
 
   &:hover {
     background-color: ${({ theme }) => theme.colors.hoverBlue};
@@ -72,7 +61,6 @@ export const StyledFlex = styled.div`
 
 export const CurrencyInfo = styled.p`
   text-align: center;
-  text-shadow: 1px 1px ${({ theme }) => theme.colors.darkGrey};
 `;
 
 export const Failure = styled.p`
@@ -85,7 +73,6 @@ export const Failure = styled.p`
 export const Link = styled.a`
   text-decoration: none;
   color: white;
-  text-shadow: 1px 1px ${({ theme }) => theme.colors.darkGrey};
 
   &:hover {
     border-bottom: 1px solid ${({ theme }) => theme.colors.hoverBlue};

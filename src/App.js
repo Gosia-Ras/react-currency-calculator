@@ -3,15 +3,14 @@ import Header from "./Components/Header";
 import { Form } from "./Components/Form";
 import Footer from "./Components/Footer";
 import Clock from "./Components/Clock";
-import "dotenv/config";
 
 function App() {
   return (
     <Container>
-      <Header title="Currency Calculator" />
       <Clock />
+      <Header title="Currency Calculator" />
       <Form />
-      <Footer title="Coded in 2021 by Gosia Ras. All&nbsp;rights reserved." />
+      <Footer title="Coded in 2021 by Gosia Hildebrand. All&nbsp;rights reserved." />
     </Container>
   );
 }
