@@ -1,8 +1,9 @@
 # Currency Calculator
-![App screenshot](https://raw.githubusercontent.com/Gosia-Ras/react_currency_calculator/main/public/calculator-screenshot.JPG)
+![image](https://github.com/Gosia-Ras/react-currency-calculator/assets/83348386/2dc12263-8afe-4116-bc1d-19317693182f)
+
 
 ## Demo: 
-https://gosia-ras.github.io/react_currency_calculator/ <- click here to see how it works
+[App demo](https://gosia-ras.github.io/react-currency-calculator/)
 
 A simple tool using JavaScript to calculate currency. Currency rates are pulled from https://exchangerate.host/#/ API. 
 
