@@ -5,7 +5,7 @@
 ## Demo: 
 [App demo](https://gosia-ras.github.io/react-currency-calculator/)
 
-A simple tool using JavaScript to calculate currency. Currency rates are pulled from https://exchangerate.host/#/ API. 
+A simple tool using JavaScript to calculate currency. Currency rates are pulled from https://apilayer.com/marketplace/currency_data-api. 
 
 Calculator includes a clock that show current time and date, it updates every 1 second.
 
