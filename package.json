@@ -1,8 +1,8 @@
 {
   "name": "calculator-react",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
-  "homepage": "https://gosia-ras.github.io/react_currency_calculator/",
+  "homepage": "https://https://main--quiet-cat-3957f2.netlify.app/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.6.2",
     "@testing-library/jest-dom": "^5.14.1",
@@ -43,11 +43,10 @@
       "last 1 safari version"
     ]
   },
-  "description": "![App screenshot](https://raw.githubusercontent.com/Gosia-Ras/react_currency_calculator/main/public/calculator-react.PNG)",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Gosia-Ras/react_currency_calculator.git"
+    "url": "https://https://main--quiet-cat-3957f2.netlify.app/"
   },
   "keywords": [],
   "author": "",
